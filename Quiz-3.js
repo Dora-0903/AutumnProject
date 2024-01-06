@@ -3,7 +3,7 @@ function quiz3() {if (document.getElementById('answer3').value == 'スペアポ�
                   else{alert('はずれ！');}
                   }
 
-function hyoji(){
+function hyoji2(){
   //表示する文字　↓
 var str = "四次元ポケットじゃないよ！";
   //テキストボックスの文字数　↓
@@ -16,21 +16,4 @@ if (cnt < 13 {
     //全て表示されていたら、空文字に戻す
   document.timer.moji.value = "";}
   //setTimeout()を含む関数を呼び出す
-  setTimeout("hyoji()",1000);}
-
-
-function hyoji13(){
-  //表示する文字　↓
-var str13 = "一文字ずつ表示します。";
-  //テキストボックスの文字数　↓
-var cnt13 = document.timer13.moji13.value.length;
-  //文字数が全部表示されているか確認　↓
-if (cnt13 < 11) {
-  //現在より１文字多く切り出して表示　↓
-  document.timer13.moji13.value = str13.substr(0,cnt13+1);}
-  else{
-    //全て表示されていたら、空文字に戻す
-  document.timer13.moji13.value = "";}
-  //setTimeout()を含む関数を呼び出す
-  setTimeout("hyoji13()",1000);}
-  
+  setTimeout("hyoji2()",1000);}
